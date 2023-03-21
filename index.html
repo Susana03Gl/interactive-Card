@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+    <link rel="stylesheet" href="Card.css" />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=League+Spartan:wght@700&family=Space+Grotesk:wght@500&display=swap"
+      rel="stylesheet"
+    />
+    <title>Frontend Mentor | Interactive card details form</title>
+  </head>
+  <body>
+    <img class="purple" src="./images/bg-main-desktop.png" />
+
+    <div class="Target">
+      <div class="target1">
+        <div class="part1">
+          <img class="cardlogo" src="./images/card-logo.svg" />
+        </div>
+        <div class="part2">
+          <p class="cardnumber">0000 0000 0000 0000</p>
+          <div class="datadoble">
+            <p class="nametarget">JANE APPLESEED</p>
+            <p class="date">00/00</p>
+          </div>
+        </div>
+      </div>
+      <div class="target2">
+        <p class="cardcvc">000</p>
+      </div>
+    </div>
+
+    <form  id="form" class="form"> 
+      <div class="cardData">
+        <div class="di">
+          <label class="label" for="NAME">CARHOLDER NAME</label>
+          <input
+            class="text1"
+            name="name"
+            type="text"
+            placeholder="e.g Jane Appleseed"
+            required
+          />
+        </div>
+        <div class="di">
+          <label class="label" for="NUMBER">CARD NUMBER</label>
+          <input
+            class="text1"
+            name="number"
+            type="text"
+            placeholder="e.g 1234 5678 9123 0000"
+            required
+          />
+        </div>
+        <div class="cont2">
+          <div class="cont2-1">
+            <div class="label">
+              <label for="DATE ">EXP.DATE (MM/YY)</label>
+            </div>
+            <div class="imput">
+              <input
+                class="text3 c"
+                name="date"
+                type="text"
+                placeholder="MM"
+                required
+              />
+              <input
+                class="text3"
+                name="mmyy"
+                type="text"
+                placeholder="YY"
+                required
+              />
+            </div>
+          </div>
+          <div class="cont2-2">
+            <div class="label">
+              <label for="CVC">CVC</label>
+            </div>
+            <div class="imput">
+              <input
+                class="text3 a"
+                name="cvc"
+                type="text"
+                placeholder="e.g 123"
+                required
+              />
+            </div>
+          </div>
+        </div>
+        <button class="btn-cfr" type="submit">Confirm</button>
+      </div>
+    </form>
+
+    <script src="./Card.js"></script>
+  </body>
+</html>

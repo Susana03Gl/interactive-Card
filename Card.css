@@ -1,0 +1,145 @@
+.colors {
+  background: hsl(249, 99%, 64%);
+  background: hsl(278, 94%, 30%);
+  background: Red (input errors);
+  background-color: hsl(0, 100%, 66%);
+  background: hsl(0, 0%, 100%);
+  background: hsl(270, 3%, 87%);
+  background: hsl(279, 6%, 55%);
+  background: hsl(278, 68%, 11%);
+}
+body {
+  display: flex;
+  flex-direction: row;
+  margin: 0;
+}
+
+.purple {
+  z-index: 10;
+ width: 35%;
+ height: 100vh;
+  
+}
+.Target {
+  z-index: 11;
+  position: absolute;
+  left: 15%;
+  top: 20%;
+  height: 50%;
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+}
+.cardcvc{
+  position: absolute;
+  color:white ;
+  right:35px;
+  top:75px ;
+  }
+
+.target1 {
+  z-index: 12;
+  background-image: url(./images/bg-card-front.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  width: 320px;
+  height: 200px;
+  border-radius: 5px;
+  position: absolute;
+  color: white;
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-top: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  font-family: Space Grotesk;
+  font-weight: 500;
+}
+.datadoble {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.target2 {
+  z-index: 13;
+  background-image: url(./images/bg-card-back.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  position: absolute;
+  width: 350px;
+  height: 200px;
+  left: 15%;
+  top: 85%;
+  border-radius: 5px;
+  font-family: Space Grotesk;
+  font-weight: 500;
+}
+.cardData {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  right: 15%;
+  top: 28%;
+  gap: 25px;
+}
+
+.cont2 {
+  display: flex;
+  flex-direction: row;
+  gap: 25px;
+}
+.text1 {
+  width: 300px;
+  height: 30px;
+  border-radius: 5px;
+  border-color: hsl(279, 6%, 55%);
+  border-style: solid;
+  padding-left: 10px;
+
+}
+
+
+.c {
+  margin-right: 10px;
+}
+.text3.a{width: 115px;}
+.text3 {
+  width: 60px;
+  height: 30px;
+  border-radius: 5px;
+  border-color: hsl(279, 6%, 55%);
+  border-style:solid;
+  padding-left:8px;
+}
+.btn-cfr {
+  height: 40px;
+  border-radius: 5px;
+  background-color: hsl(278, 94%, 30%);
+  border-style: none;
+  color: white;
+}
+.cont2-1 {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.cont2-2 {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.di {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.label{
+    font-family: 'League Spartan', sans-serif;
+font-weight: 500;
+font-size: 18px;
+color: hsl(278, 68%, 11%);
+
+}
